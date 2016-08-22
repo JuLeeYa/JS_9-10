@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/jcarousel.basic.css">
+	<link rel="stylesheet" href="css/jquery.selectBox.css">
+	<link rel="stylesheet" href="css/blue.css">
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	<script src="js/jquery.jcarousel.js"></script>
+	<script src="js/jquery.selectBox.js"></script>
+	<script src="js/icheck.js"></script>
+	<script src="js/jquery.color.js"></script>
+	
+	
+	<script src="js/script.js" ></script>
+	
+	<title>Document</title>
+</head>
+<body>
+	<div class="wrapper">
+		<!-- Wrapper -->
+		<div class="jcarousel-wrapper">
+			<!-- Carousel -->
+			<div class="jcarousel">
+				<ul>
+
+					<li><img src="img/5.jpg" alt="leaf"></li>
+					<li><img src="img/3.jpg" alt="strawberry"></li>
+					<li><img src="img/4.jpg" alt="apples" ></li>
+					<li><img src="img/2.jpg" alt="ducks"></li>
+
+				</ul>
+			</div>
+
+			<!-- Controls -->
+			<a class="jcarousel-prev" href="#">prev</a>
+			<a class="jcarousel-next" href="#">next</a>
+		</div>
+
+		<div class="jcarousel-pagination">
+
+		</div>
+
+		<!-- SELECT -->
+
+		<p>
+			<select id="standard-dropdown" name="standard-dropdown" class="custom-class1 custom-class2" style="width: 250px;">
+				<option value="1" class="test-class-1">Item 1</option>
+				<option value="2" class="test-class-2" selected="selected">Item 2</option>
+				<option value="3" class="test-class-3">Item 3 has a really long label that will not interfere with the control's
+					width
+				</option>
+				<option value="4" class="test-class-4">Item 4</option>
+				<option value="5" disabled="disabled">Item 5 (disabled)</option>
+				<option value="6">Item 6</option>
+				<option value="7">Item 7</option>
+				<option value="8">Item 8</option>
+				<option value="9">Item 9</option>
+				<option value="10">Item 10</option>
+				<option value="11">Item 11</option>
+				<option value="12">Item 12</option>
+			</select>
+		</p>
+
+		<!-- CHECKBOX -->
+		<div class="myCheckbox">
+			<form action="#"> 
+				<label>label 1<input type="checkbox" class = "first"></label>
+				<label>label 2<input type="checkbox" class = "first" checked></label>
+				<label>label 3<input type="checkbox" class = "first" checked disabled></label>
+				<label>label 4<input type="checkbox" class = "first"></label>
+			</form>
+		</div>
+
+		<div class="checkbox_css">
+			<form action="#">
+				<p>
+					<input type="checkbox" class="checkbox_custom" id="check1" />
+					<label for="check1" class="labe">label 1</label>
+
+				</p>
+				<p>
+					<input type="checkbox" class="checkbox_custom" id="check2" checked />
+					<label for="check2" class="labe">label 2</label>
+
+				</p>
+				<p>
+					<input type="checkbox" class="checkbox_custom" id="check3" checked disabled />
+					<label for="check3" class="labe">label 3</label>
+
+				</p>
+				<p>
+					<input type="checkbox" class="checkbox_custom" id="check4" />
+					<label for="check4" class="labe">label 4</label>
+
+				</p>
+			</form>
+		</div>
+
+		<nav class="navigation">
+			<ul class="menu">
+				<li class="menu_item"><a href="#" class="menu_link">картинки</a></li>
+
+				<li class="menu_item" id="music"><a href="#" class="menu_link" >музыка</a><span class="triangle_down"></span>
+
+					<ul class="submenu">
+
+						<li class="submenu_item"><a href="#" class="submenu_link">классика</a></li>
+						<li class="submenu_item" id="rock"><a href="#" class="submenu_link">рок</a><span class ="triangle_right"></span>
+
+							<ul class="submenu2">
+
+								<li class="submenu2_item"><a href="#" class="submenu2_link">soft-rock</a></li>
+								<li class="submenu2_item" id="hard_rock"><a href="#" class="submenu2_link">hard-rock</a><span class="triangle_right"></span>
+
+									<ul class="submenu3">
+
+										<li class="submenu3_item"><a href="#" class="submenu3_link">AC/DC</a></li>
+										<li class="submenu3_item"><a href="#" class="submenu3_link">Guns N' Roses</a></li>
+										<li class="submenu3_item"><a href="#" class="submenu3_link">Kiss</a></li>
+										<li class="submenu3_item"><a href="#" class="submenu3_link">Deep Purple</a></li>
+										<li class="submenu3_item"><a href="#" class="submenu3_link">Aerosmith</a></li>
+										<li class="submenu3_item"><a href="#" class="submenu3_link">Ozzy Osbourne</a></li>
+
+									</ul>
+
+								</li>
+								<li class="submenu2_item"><a href="#" class="submenu2_link">alternative-rock</a></li>
+
+							</ul>
+
+
+
+
+						</li>
+						<li class="submenu_item"><a href="#" class="submenu_link">джаз</a></li>
+					</ul></li>
+
+
+					<li class="menu_item"><a href="#" class="menu_link">видео</a></li>
+					<li class="menu_item"><a href="#" class="menu_link">статьи</a></li>
+					<li class="menu_item"><a href="#" class="menu_link">другое</a></li>
+				</ul>
+
+
+
+
+
+			</nav>					
+
+
+		</div>
+
+
+	</body>
+	</html>
